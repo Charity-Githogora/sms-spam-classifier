@@ -1,4 +1,5 @@
 SMS Spam Classifier – Neural Network
+
 This project is part of the FreeCodeCamp Machine Learning with Python certification. It uses a neural network to classify SMS messages as either "ham" (not spam) or "spam", trained using the SMS Spam Collection dataset.
 
 Project Overview
