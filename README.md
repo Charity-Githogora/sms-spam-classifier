@@ -24,47 +24,45 @@ What the Model Does
 
 How to Use It
 
-Open the notebook in Google Colab
+- Open the notebook in Google Colab
 
-Run each cell in order (make sure to train the model before testing)
+- Run each cell in order (make sure to train the model before testing)
 
-Use the predict_message("your message here") function to classify new SMS messages
+- Use the predict_message("your message here") function to classify new SMS messages
 
-Run the test cell to check if the model passes all test cases
+- Run the test cell to check if the model passes all test cases
 
 
 
 Model Architecture
 
-Embedding Layer (input_dim=1000, output_dim=32)
+- Embedding Layer (input_dim=1000, output_dim=32)
 
-Bidirectional LSTM Layer (units=32)
+- Bidirectional LSTM Layer (units=32)
 
-Global Max Pooling
+- Global Max Pooling
 
-Dense Layer (ReLU)
+- Dense Layer (ReLU)
 
-Output Layer (Sigmoid)
+- Output Layer (Sigmoid)
+
+
 
 Result
+
 Once trained correctly, the model passes the final test and prints:
 
-nginx
-Copy
-Edit
 You passed the challenge. Great job!
 
-Example Usage
-python
-Copy
-Edit
-predict_message("Congratulations! You've won a free iPhone.")
-# Output: [0.91, 'spam']
-👩🏽‍💻 Author
-Charity Nyambura Githogora
-LinkedIn • Nairobi, Kenya
-Google Developer Student Club | She Code Africa
 
-📜 License
+
+Author
+
+Charity Nyambura Githogora
+
+
+
+License
+
 This project follows the freeCodeCamp open-source guidelines.
 
